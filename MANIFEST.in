@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chandna *.css
+recursive-include chandna *.csv
+recursive-include chandna *.html
+recursive-include chandna *.ico
+recursive-include chandna *.js
+recursive-include chandna *.json
+recursive-include chandna *.md
+recursive-include chandna *.png
+recursive-include chandna *.py
+recursive-include chandna *.svg
+recursive-include chandna *.txt
+recursive-exclude chandna *.pyc
