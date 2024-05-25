@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-25 17:51:19.583894",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "proccess",
+  "output_capacity",
+  "working_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "proccess",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Proccess",
+   "options": "Process"
+  },
+  {
+   "fieldname": "output_capacity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Output Capacity"
+  },
+  {
+   "fieldname": "working_hours",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Working Hours"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-25 17:51:19.583894",
+ "modified_by": "Administrator",
+ "module": "chandna",
+ "name": "Workstation Process",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
