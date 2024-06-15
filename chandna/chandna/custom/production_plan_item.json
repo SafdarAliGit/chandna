@@ -18,7 +18,7 @@
    "docstatus": 0,
    "dt": "Production Plan Item",
    "fetch_from": "bom_no.color",
-   "fetch_if_empty": 0,
+   "fetch_if_empty": 1,
    "fieldname": "color",
    "fieldtype": "Link",
    "hidden": 0,
