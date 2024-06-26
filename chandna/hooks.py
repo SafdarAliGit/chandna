@@ -215,6 +215,9 @@ app_include_css = "/assets/chandna/css/chandna.css"
 # auth_hooks = [
 #	"chandna.auth.validate"
 # ]
+doctype_js = {
+	"Item" : "public/item.js"
+}
 override_doctype_class = {
     "Production Plan": "chandna.overrides.production_plan_overrides.ProductionPlanOverrides",
 }
