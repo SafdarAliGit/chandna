@@ -1,20 +1,20 @@
 frappe.ui.form.on("Item", {
-    refresh: function (frm) {
-        if (frm.doc.item_group_name == "yarn") {
-            frm.set_df_property("brand_name", "hidden", 0);
-            frm.set_df_property("yarn_count", "hidden", 0);
-            frm.set_df_property("yarn_quality", "hidden", 0);
-            frm.set_df_property("color", "hidden", 0);
-            frm.set_df_property("yarn_gsm", "hidden", 0);
-        } else {
-            frm.set_df_property("brand_name", "hidden", 1);
-            frm.set_df_property("yarn_count", "hidden", 1);
-            frm.set_df_property("yarn_quality", "hidden", 1);
-            frm.set_df_property("color", "hidden", 1);
-            frm.set_df_property("yarn_gsm", "hidden", 1);
-        }
-
-    },
+    // refresh: function (frm) {
+    //     if (frm.doc.item_group_name == "yarn") {
+    //         frm.set_df_property("brand_name", "hidden", 0);
+    //         frm.set_df_property("yarn_count", "hidden", 0);
+    //         frm.set_df_property("yarn_quality", "hidden", 0);
+    //         frm.set_df_property("color", "hidden", 0);
+    //         frm.set_df_property("yarn_gsm", "hidden", 0);
+    //     } else {
+    //         frm.set_df_property("brand_name", "hidden", 1);
+    //         frm.set_df_property("yarn_count", "hidden", 1);
+    //         frm.set_df_property("yarn_quality", "hidden", 1);
+    //         frm.set_df_property("color", "hidden", 1);
+    //         frm.set_df_property("yarn_gsm", "hidden", 1);
+    //     }
+    //
+    // },
     brand_name: function (frm) {
         set_item_code_and_name(frm);
     },
